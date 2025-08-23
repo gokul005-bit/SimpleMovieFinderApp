@@ -14,7 +14,7 @@ const Displaymovie = () => {
     const fetchMovieData = async () => {
       if (!movieName) return;
       try {
-        const response = await fetch(`http://www.omdbapi.com/?apikey=b80a4cc3&t=${encodeURIComponent(movieName)}`);
+        const response = await fetch(`https://www.omdbapi.com/?apikey=b80a4cc3&t=${encodeURIComponent(movieName)}`);
         const data = await response.json();
         setMovieData(data);
       } catch (error) {

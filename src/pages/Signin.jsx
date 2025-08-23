@@ -62,7 +62,7 @@ const Signin = () => {
         </form>
         <div className="mt-6 text-center text-cyan-300 text-sm font-mono">
           <span>Already have an account? </span>
-          <a href="/signup" className="underline hover:text-cyan-400 transition-colors">sign-up</a>
+          <Link to="/signup" className="underline hover:text-cyan-400 transition-colors">sign-up</Link>
         </div>
         
       </div>
